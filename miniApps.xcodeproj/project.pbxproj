@@ -3,27 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		727926512C8D9685007778A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926502C8D9685007778A8 /* AppDelegate.swift */; };
 		727926532C8D9685007778A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926522C8D9685007778A8 /* SceneDelegate.swift */; };
-		727926552C8D9685007778A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926542C8D9685007778A8 /* ViewController.swift */; };
-		727926582C8D9685007778A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727926562C8D9685007778A8 /* Main.storyboard */; };
+		727926552C8D9685007778A8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926542C8D9685007778A8 /* RootViewController.swift */; };
 		7279265A2C8D9687007778A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727926592C8D9687007778A8 /* Assets.xcassets */; };
-		7279265D2C8D9687007778A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7279265B2C8D9687007778A8 /* LaunchScreen.storyboard */; };
+		727926652C8D96F9007778A8 /* CustomCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926642C8D96F9007778A8 /* CustomCellCollectionViewCell.swift */; };
+		727926672C8D9714007778A8 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926662C8D9714007778A8 /* ConstantStrings.swift */; };
+		727926692C8D9727007778A8 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926682C8D9727007778A8 /* Sizes.swift */; };
+		7279266C2C8D979A007778A8 /* CurrentGeoPositionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 7279266B2C8D979A007778A8 /* CurrentGeoPositionPackage */; };
+		7279266F2C8D97E7007778A8 /* WeatherForecastSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 7279266E2C8D97E7007778A8 /* WeatherForecastSPM */; };
+		727926722C8D97F2007778A8 /* TikTacToeSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 727926712C8D97F2007778A8 /* TikTacToeSPM */; };
+		727926742C8D984F007778A8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727926732C8D984F007778A8 /* Model.swift */; };
+		727926762C8D99F6007778A8 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 727926752C8D99F5007778A8 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7279264D2C8D9685007778A8 /* miniApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727926502C8D9685007778A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727926522C8D9685007778A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		727926542C8D9685007778A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		727926572C8D9685007778A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		727926542C8D9685007778A8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		727926592C8D9687007778A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7279265C2C8D9687007778A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7279265E2C8D9687007778A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727926642C8D96F9007778A8 /* CustomCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		727926662C8D9714007778A8 /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		727926682C8D9727007778A8 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		727926732C8D984F007778A8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		727926752C8D99F5007778A8 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727926722C8D97F2007778A8 /* TikTacToeSPM in Frameworks */,
+				7279266C2C8D979A007778A8 /* CurrentGeoPositionPackage in Frameworks */,
+				7279266F2C8D97E7007778A8 /* WeatherForecastSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,58 @@
 		7279264F2C8D9685007778A8 /* miniApps */ = {
 			isa = PBXGroup;
 			children = (
-				727926502C8D9685007778A8 /* AppDelegate.swift */,
-				727926522C8D9685007778A8 /* SceneDelegate.swift */,
-				727926542C8D9685007778A8 /* ViewController.swift */,
-				727926562C8D9685007778A8 /* Main.storyboard */,
+				727926772C8D9A6E007778A8 /* Resource */,
+				727926782C8D9A7A007778A8 /* ViewControllers */,
+				727926792C8D9A8A007778A8 /* CustomView */,
+				7279267A2C8D9A98007778A8 /* SupportingFiles */,
+				7279267B2C8D9AAE007778A8 /* Model */,
+				727926752C8D99F5007778A8 /* ReadMe.md */,
 				727926592C8D9687007778A8 /* Assets.xcassets */,
-				7279265B2C8D9687007778A8 /* LaunchScreen.storyboard */,
 				7279265E2C8D9687007778A8 /* Info.plist */,
 			);
 			path = miniApps;
+			sourceTree = "<group>";
+		};
+		727926772C8D9A6E007778A8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				727926522C8D9685007778A8 /* SceneDelegate.swift */,
+				727926502C8D9685007778A8 /* AppDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		727926782C8D9A7A007778A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				727926542C8D9685007778A8 /* RootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		727926792C8D9A8A007778A8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				727926642C8D96F9007778A8 /* CustomCellCollectionViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		7279267A2C8D9A98007778A8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				727926662C8D9714007778A8 /* ConstantStrings.swift */,
+				727926682C8D9727007778A8 /* Sizes.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7279267B2C8D9AAE007778A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				727926732C8D984F007778A8 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,11 @@
 			dependencies = (
 			);
 			name = miniApps;
+			packageProductDependencies = (
+				7279266B2C8D979A007778A8 /* CurrentGeoPositionPackage */,
+				7279266E2C8D97E7007778A8 /* WeatherForecastSPM */,
+				727926712C8D97F2007778A8 /* TikTacToeSPM */,
+			);
 			productName = miniApps;
 			productReference = 7279264D2C8D9685007778A8 /* miniApps.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,11 @@
 				Base,
 			);
 			mainGroup = 727926442C8D9685007778A8;
+			packageReferences = (
+				7279266A2C8D979A007778A8 /* XCLocalSwiftPackageReference "CurrentGeoPositionPackage" */,
+				7279266D2C8D97E7007778A8 /* XCLocalSwiftPackageReference "WeatherForecastSPM" */,
+				727926702C8D97F2007778A8 /* XCLocalSwiftPackageReference "TikTacToeSPM" */,
+			);
 			productRefGroup = 7279264E2C8D9685007778A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7279265D2C8D9687007778A8 /* LaunchScreen.storyboard in Resources */,
+				727926762C8D99F6007778A8 /* ReadMe.md in Resources */,
 				7279265A2C8D9687007778A8 /* Assets.xcassets in Resources */,
-				727926582C8D9685007778A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				727926552C8D9685007778A8 /* ViewController.swift in Sources */,
+				727926742C8D984F007778A8 /* Model.swift in Sources */,
+				727926692C8D9727007778A8 /* Sizes.swift in Sources */,
+				727926672C8D9714007778A8 /* ConstantStrings.swift in Sources */,
+				727926552C8D9685007778A8 /* RootViewController.swift in Sources */,
 				727926512C8D9685007778A8 /* AppDelegate.swift in Sources */,
 				727926532C8D9685007778A8 /* SceneDelegate.swift in Sources */,
+				727926652C8D96F9007778A8 /* CustomCellCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		727926562C8D9685007778A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				727926572C8D9685007778A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7279265B2C8D9687007778A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7279265C2C8D9687007778A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7279265F2C8D9687007778A8 /* Debug */ = {
@@ -296,9 +345,7 @@
 				INFOPLIST_FILE = miniApps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +353,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swiftbook.ru.miniApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,9 +373,7 @@
 				INFOPLIST_FILE = miniApps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +381,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swiftbook.ru.miniApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,6 +412,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7279266A2C8D979A007778A8 /* XCLocalSwiftPackageReference "CurrentGeoPositionPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CurrentGeoPositionPackage;
+		};
+		7279266D2C8D97E7007778A8 /* XCLocalSwiftPackageReference "WeatherForecastSPM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = WeatherForecastSPM;
+		};
+		727926702C8D97F2007778A8 /* XCLocalSwiftPackageReference "TikTacToeSPM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TikTacToeSPM;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7279266B2C8D979A007778A8 /* CurrentGeoPositionPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CurrentGeoPositionPackage;
+		};
+		7279266E2C8D97E7007778A8 /* WeatherForecastSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WeatherForecastSPM;
+		};
+		727926712C8D97F2007778A8 /* TikTacToeSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TikTacToeSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 727926452C8D9685007778A8 /* Project object */;
 }
